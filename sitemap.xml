@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://linzjai.github.io/blog/2018/10/20/test/</loc>
+    <loc>https://linzjai.github.io/blog/2018/10/22/%E7%A6%BB%E8%81%8C%E6%84%9F%E6%82%9F/</loc>
     
-    <lastmod>2018-10-20T15:03:22.155Z</lastmod>
+    <lastmod>2018-10-22T15:09:12.237Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://linzjai.github.io/blog/2018/10/21/rxjs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2018-10-21T16:39:33.031Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://linzjai.github.io/blog/2018/10/20/%E7%BB%84%E5%91%98%E7%9A%84%E5%89%8D%E7%AB%AF%E7%BB%84%E9%95%BF%E7%9A%84%E7%83%A6%E6%81%BC-%E7%A6%BB%E8%81%8C%E4%B8%8E%E4%BA%A4%E6%8E%A5/</loc>
+    
+    <lastmod>2018-10-20T16:45:32.100Z</lastmod>
     
   </url>
   

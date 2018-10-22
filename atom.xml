@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://linzjai.github.io/blog/"/>
-  <updated>2018-10-20T15:03:22.155Z</updated>
+  <updated>2018-10-22T15:09:12.237Z</updated>
   <id>https://linzjai.github.io/blog/</id>
   
   <author>
@@ -17,19 +17,61 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test123213231232132231</title>
-    <link href="https://linzjai.github.io/blog/2018/10/20/test/"/>
-    <id>https://linzjai.github.io/blog/2018/10/20/test/</id>
-    <published>2018-10-20T14:03:24.000Z</published>
-    <updated>2018-10-20T15:03:22.155Z</updated>
+    <title>&#39;离职感悟&#39;</title>
+    <link href="https://linzjai.github.io/blog/2018/10/22/%E7%A6%BB%E8%81%8C%E6%84%9F%E6%82%9F/"/>
+    <id>https://linzjai.github.io/blog/2018/10/22/离职感悟/</id>
+    <published>2018-10-22T14:56:52.000Z</published>
+    <updated>2018-10-22T15:09:12.237Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="test12321312321321"><a href="#test12321312321321" class="headerlink" title="test12321312321321"></a>test12321312321321</h2>]]></content>
+    <content type="html"><![CDATA[<p>离职交接的时刻，人性的丑恶暴露无遗<br>为何这么说，因为离职的时候人的自私心会表现的纯粹<br>这家公司不如我下家，这家公司垃圾<br>可能，离职的人难道就忘记这家公司依然给着你工资<br>当年你还是个菜鸡的时候，是谁把你招进来，给了你成长的沃土<br>如今，你有了更好的选择了，就可以无情的抛弃一切吗<br>对于你，你可以憧憬未来<br>对于现在的公司，将会失去一个员工，即使招新人进来，也短时间弥补不了<br>既然要走，为何不能在离开前为老东家再付出最后的余晖呢<br>自己的离开，必然对公司造成损失<br>离职的交接的人，可曾想到<br>离职的人难道就可以只负责交接而不能安排新任务了吗<br>交接期的一个月难道就是给你打发时间吗<br>这么长的时间安排些小任务，过分吗<br>离开，也是告别过去<br>人，应该心怀感恩<br>除了个人利益得失，也要考虑到无意中对公司和公司其他同事造成的损失，而应该想办法把损失降到最小，而不是想尽办法的混过去<br>如果不能好好的告别过去<br>何谈更美好的未来<br>先做人，后做事<br>如果到了我要离开的日子，我会在岗位上坚守到最后一秒，我会在代码注释上，感恩公司</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;test12321312321321&quot;&gt;&lt;a href=&quot;#test12321312321321&quot; class=&quot;headerlink&quot; title=&quot;test12321312321321&quot;&gt;&lt;/a&gt;test12321312321321&lt;/h2&gt;
+        &lt;p&gt;离职交接的时刻，人性的丑恶暴露无遗&lt;br&gt;为何这么说，因为离职的时候人的自私心会表现的纯粹&lt;br&gt;这家公司不如我下家，这家公司垃圾&lt;br&gt;可能，离职的人难道就忘记这家公司依然给着你工资&lt;br&gt;当年你还是个菜鸡的时候，是谁把你招进来，给了你成长的沃土&lt;br&gt;如今，你有了更好的
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;rxjs学习笔记&#39;</title>
+    <link href="https://linzjai.github.io/blog/2018/10/21/rxjs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://linzjai.github.io/blog/2018/10/21/rxjs学习笔记/</id>
+    <published>2018-10-20T17:07:05.000Z</published>
+    <updated>2018-10-21T16:39:33.031Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm i -S rxjs</span><br></pre></td></tr></table></figure><h5 id="安装-typescript-类型"><a href="#安装-typescript-类型" class="headerlink" title="安装 typescript 类型"></a>安装 typescript 类型</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm i -D @types/rx</span><br></pre></td></tr></table></figure><h5 id="rxjs-动画-animationFrameScheduler"><a href="#rxjs-动画-animationFrameScheduler" class="headerlink" title="rxjs 动画 animationFrameScheduler"></a>rxjs 动画 animationFrameScheduler</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">import * as rxjs from <span class="string">'rxjs'</span>;</span><br><span class="line">const div: HTMLDivElement = document.querySelector(<span class="string">'.some-div'</span>);</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line">@params 延迟，初始值</span><br><span class="line">**/</span><br><span class="line">rxjs.animationFrameScheduler.schedule(<span class="keyword">function</span> (height) &#123;</span><br><span class="line">  div.style.height = height + <span class="string">"px"</span>;</span><br><span class="line"></span><br><span class="line">  this.schedule(height + 1);  // `this` references currently executing Action,</span><br><span class="line">  // <span class="built_in">which</span> we reschedule with new state</span><br><span class="line">&#125;, 0, 100);</span><br></pre></td></tr></table></figure><h5 id="rxjs-异步，循环调用-asyncScheduler"><a href="#rxjs-异步，循环调用-asyncScheduler" class="headerlink" title="rxjs 异步，循环调用 asyncScheduler"></a>rxjs 异步，循环调用 asyncScheduler</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">import * as rxjs from <span class="string">'rxjs'</span>;</span><br><span class="line">const div: HTMLDivElement = document.querySelector(<span class="string">'.some-div'</span>);</span><br><span class="line"></span><br><span class="line">rxjs.asyncScheduler.schedule(<span class="keyword">function</span> (state) &#123;</span><br><span class="line">  console.log(state)</span><br><span class="line">  this.schedule(state + 1, 1000)</span><br><span class="line">&#125;, 1000, 0)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h5&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span c
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>前端组长的烦恼-组员的离职与交接</title>
+    <link href="https://linzjai.github.io/blog/2018/10/20/%E7%BB%84%E5%91%98%E7%9A%84%E5%89%8D%E7%AB%AF%E7%BB%84%E9%95%BF%E7%9A%84%E7%83%A6%E6%81%BC-%E7%A6%BB%E8%81%8C%E4%B8%8E%E4%BA%A4%E6%8E%A5/"/>
+    <id>https://linzjai.github.io/blog/2018/10/20/组员的前端组长的烦恼-离职与交接/</id>
+    <published>2018-10-20T14:03:24.000Z</published>
+    <updated>2018-10-20T16:45:32.100Z</updated>
+    
+    <content type="html"><![CDATA[<p>非常不开心的一天，做为组长，其实非常不希望见到离职的情况的，我当组长的这半年来，这是第三个离职的同事了，我非常的难过。其中一个是离职需要交接工作，需要招新人，很担心新人的质量，也很担心交接项目的代码质量，新人能否承担起前人的工作。同时，曾经多年的同事友谊仿佛会在离职的一刻完全的破碎。我不知道我该如何面对离职的同事，我可能会趋向逃避吧，再见，再也不见。</p><p>这次离职的是一个大学的女性同学，我们曾一起担任学习委员，一起参加网页设计大赛，一起做外包，一起学前端，一起去健身，一起去探索美食，一起分享快乐的事情。曾经因为新技术而欣喜不已，曾经互相抱怨公司的巨坑的项目，我们一起度过了实习，一起经历了公司的春季离职潮，却躲不过秋季。离职原因是工资待遇，这个原因，我无法去挽留。你在努力的向上攀爬，只是这条路再也没我。我还留着原地蹉跎，旧景中再没你的身影。</p><p>也许你不知道，你曾是或者现在也是我努力向上的动力，没有你的日子，我能否继续努力。我想我会的，我会把努力的把痛苦鞭策自己前行。有时候痛苦比快乐更能激励人的成长。</p><p>我想我应该不会正面的面对你了，因为，我不知道，面对再也不见的你，我应该对你表现出何种心情。</p><p>这也许是我们相近的第四年了，原来我们的缘分仅仅这么点</p><p>再见，希望下次再见，我们都能有所成就！！！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;非常不开心的一天，做为组长，其实非常不希望见到离职的情况的，我当组长的这半年来，这是第三个离职的同事了，我非常的难过。其中一个是离职需要交接工作，需要招新人，很担心新人的质量，也很担心交接项目的代码质量，新人能否承担起前人的工作。同时，曾经多年的同事友谊仿佛会在离职的一刻完
       
     
     </summary>
